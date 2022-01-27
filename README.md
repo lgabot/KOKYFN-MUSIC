@@ -1,2 +1,8 @@
-# KOKYFN-MUSIC
-Un bot de Musica para discord echo por Bot De La Agencia#8532 y Shiloh.dev#0001
+function presence(){
+	client.user.setPresence({
+		status:"online",
+		activity: {
+			name:"playing ONIZUKA Music discord Api by Shiloh#6215",
+			type:"PLAYING"
+		}
+	});
